@@ -1,9 +1,9 @@
 ! special colors
 *.foreground:  #ebf1db
-*.background:  #232c31
+*.background:  #29262d
 *.cursorColor:  #9ea7a6
 ! black
-*.color0:      #232c31
+*.color0:      #29262d
 *.color8:      #3f4944
 ! red
 *.color1:      #2a5491
@@ -28,8 +28,20 @@
 *.color15:     #ebf1db
 ! underlined text
 *.colorUL:     #178CE5
+! highlighted text color
+*.highlightColor: #252935
+*.highlightTextColor: #C0C5CE
 
 URxvt*scrollBar:         false
+
+URxvt.scrollTtyKeypress: true
+URxvt.scrollTtyoutput: false
+URxvt.scrollWithBuffer: false
+URxvt.fading: 30
+URxvt.termName : rxvt-unicode
+URxvt.iconFile: ~/terminal_icon.svg
+URxvt.geometry: 86x28
+
 
 URxvt.font: xft:monospace:pixelsize=16
 URxvt.letterSpace: 0
